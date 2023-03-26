@@ -3,6 +3,17 @@
         "target": "ESNext",
         "useDefineForClassFields": true,
         "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "baseUrl": "src",
+        "paths": {
+            "app": ["src/app"],
+            "assets": ["src/assets"],
+            "component": ["src/component"],
+            "config": ["src/config"],
+            "container": ["src/container"],
+            "route": ["src/route"],
+            "types": ["src/types"],
+            "interface": ["src/interface"]
+        },
         "allowJs": false,
         "skipLibCheck": true,
         "esModuleInterop": true,
